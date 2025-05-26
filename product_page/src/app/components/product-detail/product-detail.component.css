@@ -2,24 +2,31 @@
  
   display: flex;
   flex-direction: column;
- 
+   background-color: white;
+   
 }
 
 .container{
     min-height: 91%;
-     background-color: #6858c7;
+     background-color: #eeeeee;
 }
 
 .price-row span
  {
     padding-bottom: 15px;
 }
-.product-container {
-  display: flex;
-  flex-direction: row;
-  gap: 24px;
-  flex-wrap: wrap;
+
+.product-container{
+  display: flex
+;
+    flex-direction: row;
+    gap: 24px;
+    flex-wrap: wrap;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 20px;
 }
+
 
 .image-section {
   flex: 1 1 350px;
